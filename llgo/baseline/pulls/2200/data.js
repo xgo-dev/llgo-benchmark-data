@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785211463287,
+  "lastUpdate": 1785211472379,
   "repoUrl": "https://github.com/xgo-dev/llgo",
   "entries": {
     "Linux program binary size": [
@@ -268,6 +268,90 @@ window.BENCHMARK_DATA = {
             "value": 43961,
             "unit": "ns/op",
             "extra": "100 times\n4 procs"
+          }
+        ]
+      }
+    ],
+    "macOS program binary size": [
+      {
+        "commit": {
+          "author": {
+            "name": "Li Jie",
+            "username": "cpunion",
+            "email": "cpunion@gmail.com"
+          },
+          "committer": {
+            "name": "Li Jie",
+            "username": "cpunion",
+            "email": "cpunion@gmail.com"
+          },
+          "id": "8882604a922d127756c83602a0ec303bd17bf0b9",
+          "message": "ci: track baseline benchmarks",
+          "timestamp": "2026-07-28T01:18:52Z",
+          "url": "https://github.com/xgo-dev/llgo/commit/8882604a922d127756c83602a0ec303bd17bf0b9"
+        },
+        "date": 1785211469079,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "binary/cprintf/file",
+            "value": 84752,
+            "unit": "bytes"
+          },
+          {
+            "name": "binary/cprintf/text",
+            "value": 15477,
+            "unit": "bytes"
+          },
+          {
+            "name": "binary/cprintf/data",
+            "value": 192,
+            "unit": "bytes"
+          },
+          {
+            "name": "binary/cprintf/bss",
+            "value": 17,
+            "unit": "bytes"
+          },
+          {
+            "name": "binary/println/file",
+            "value": 126848,
+            "unit": "bytes"
+          },
+          {
+            "name": "binary/println/text",
+            "value": 37208,
+            "unit": "bytes"
+          },
+          {
+            "name": "binary/println/data",
+            "value": 8833,
+            "unit": "bytes"
+          },
+          {
+            "name": "binary/println/bss",
+            "value": 268,
+            "unit": "bytes"
+          },
+          {
+            "name": "binary/fmtprintf/file",
+            "value": 2345936,
+            "unit": "bytes"
+          },
+          {
+            "name": "binary/fmtprintf/text",
+            "value": 1155465,
+            "unit": "bytes"
+          },
+          {
+            "name": "binary/fmtprintf/data",
+            "value": 365688,
+            "unit": "bytes"
+          },
+          {
+            "name": "binary/fmtprintf/bss",
+            "value": 320356,
+            "unit": "bytes"
           }
         ]
       }
