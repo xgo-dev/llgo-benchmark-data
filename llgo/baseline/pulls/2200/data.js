@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785212670452,
+  "lastUpdate": 1785212679008,
   "repoUrl": "https://github.com/xgo-dev/llgo",
   "entries": {
     "Linux program binary size": [
@@ -762,6 +762,70 @@ window.BENCHMARK_DATA = {
             "name": "run/fmtprintf",
             "value": 17492292,
             "range": "16701208..18372250",
+            "unit": "ns",
+            "extra": "median of 7 consecutive runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Li Jie",
+            "username": "cpunion",
+            "email": "cpunion@gmail.com"
+          },
+          "committer": {
+            "name": "Li Jie",
+            "username": "cpunion",
+            "email": "cpunion@gmail.com"
+          },
+          "id": "6eca55320c6e807131d8b5ee6736b294f8e87733",
+          "message": "ci: track baseline benchmarks",
+          "timestamp": "2026-07-28T01:18:52Z",
+          "url": "https://github.com/xgo-dev/llgo/commit/6eca55320c6e807131d8b5ee6736b294f8e87733"
+        },
+        "date": 1785212676373,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "compile/cprintf",
+            "value": 301477792,
+            "range": "298931209..3998016750",
+            "unit": "ns",
+            "extra": "median of 3 consecutive runs"
+          },
+          {
+            "name": "run/cprintf",
+            "value": 2542291,
+            "range": "2397291..3466709",
+            "unit": "ns",
+            "extra": "median of 7 consecutive runs"
+          },
+          {
+            "name": "compile/println",
+            "value": 338310375,
+            "range": "334632875..351194416",
+            "unit": "ns",
+            "extra": "median of 3 consecutive runs"
+          },
+          {
+            "name": "run/println",
+            "value": 3126625,
+            "range": "3015375..3475542",
+            "unit": "ns",
+            "extra": "median of 7 consecutive runs"
+          },
+          {
+            "name": "compile/fmtprintf",
+            "value": 3184766292,
+            "range": "2961621334..23798984458",
+            "unit": "ns",
+            "extra": "median of 3 consecutive runs"
+          },
+          {
+            "name": "run/fmtprintf",
+            "value": 19651416,
+            "range": "19174417..21212833",
             "unit": "ns",
             "extra": "median of 7 consecutive runs"
           }
