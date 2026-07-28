@@ -1,1 +1,14 @@
-{"schemaVersion":1,"series":[]}
+{
+  "schemaVersion": 1,
+  "series": [
+    {
+      "kind": "pull",
+      "id": "2200",
+      "label": "PR #2200",
+      "path": "pulls/2200/",
+      "sha": "8882604a922d127756c83602a0ec303bd17bf0b9",
+      "sourceUrl": "https://github.com/xgo-dev/llgo/commit/8882604a922d127756c83602a0ec303bd17bf0b9",
+      "updatedAt": "2026-07-28T04:07:26Z"
+    }
+  ]
+}
