@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "series": [
+    {
+      "kind": "pull",
+      "id": "2200",
+      "label": "PR #2200",
+      "configPath": "series/pull/2200/config.json",
+      "updatedAt": "2026-07-28T04:24:44.668Z",
+      "path": "series/pull/2200/summary.json",
+      "commitPath": "commits/6eca55320c6e807131d8b5ee6736b294f8e87733.json",
+      "sha": "6eca55320c6e807131d8b5ee6736b294f8e87733",
+      "sourceUrl": "https://github.com/xgo-dev/llgo/commit/6eca55320c6e807131d8b5ee6736b294f8e87733"
+    }
+  ]
+}
